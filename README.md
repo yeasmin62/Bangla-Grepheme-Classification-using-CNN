@@ -1,0 +1,2 @@
+# Bangla-Grepheme-Classification-using-CNN
+This task uses the dataset of Bangla graphemes published by kaggle. Grapheme images are first resized and then converted into gray scale images. The images are then binarized by applying otsu image thresholding. The binarized images are employed into a CNN consisting  softmax function in the last layer. Convolution, global average and dropout layers are inserted in the middle of the network.
